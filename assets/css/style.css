@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/natural_paper.png");
+
+}
+
+#crystals-collector {
+    background-color: orangered;
+    padding: 20px 5px;
+    color: white;
+    display: table;
+}
+
+#instructions {
+    display: table;
+    padding: 20px 5px 100px 5px;
+    background-color: tan;
+    color: green;
+}
+
+#target-number-div {
+    display: table;
+    background-color: lightgreen;
+    color: purple;
+    padding: auto 5px;
+    height: 100px;
+}
+
+#wins-losses-div {
+    display: table;
+    background-color: lightseagreen;
+    padding: auto 5px;
+    height: 100px;
+    float: left;
+}
+
+.crystal-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#crystal-1 {
+    clear: both;
+}
+
+#total-score-div {
+    clear: both;
+}
